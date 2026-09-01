@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kyakala Tours & Travel | Explore Uganda</title>
+
+    <meta name="description"
+          content="Explore Uganda with Kyakala Tours & Travel. Discover wildlife safaris, gorilla trekking, cultural experiences and beautiful destinations.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <a href="#home" class="logo">
+        <span>KYAKALA</span>
+        <small>TOURS & TRAVEL</small>
+    </a>
+
+    <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#tours">Tours</a>
+        <a href="#culture">Culture</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="book-button">
+        Book Now
+    </a>
+
+    <button class="menu-button" onclick="toggleMenu()">
+        ☰
+    </button>
+
+</header>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <button class="close-menu" onclick="toggleMenu()">
+        ×
+    </button>
+
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#destinations" onclick="toggleMenu()">Destinations</a>
+    <a href="#tours" onclick="toggleMenu()">Tours</a>
+    <a href="#culture" onclick="toggleMenu()">Culture</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            WELCOME TO THE PEARL OF AFRICA
+        </p>
+
+        <h1>
+            Discover Uganda.
+            <strong>Live the Adventure.</strong>
+        </h1>
+
+        <p class="hero-description">
+            From incredible wildlife and mountain gorillas
+            to breathtaking landscapes and rich cultures,
+            your unforgettable Ugandan journey starts here.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#destinations" class="primary-button">
+                Explore Uganda
+            </a>
+
+            <a href="#contact" class="secondary-button">
+                Plan My Trip
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+        Scroll to explore ↓
+    </div>
+
+</section>
+
+
+<!-- ================= QUICK SERVICES ================= -->
+
+<section class="quick-services">
+
+    <div class="service-card">
+        <span>🦁</span>
+        <div>
+            <h3>Wildlife Safaris</h3>
+            <p>Explore Uganda's wildlife</p>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <span>🦍</span>
+        <div>
+            <h3>Gorilla Trekking</h3>
+            <p>Meet the mountain gorillas</p>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <span>🥁</span>
+        <div>
+            <h3>Cultural Tours</h3>
+            <p>Experience Ugandan culture</p>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <span>🏞️</span>
+        <div>
+            <h3>Adventure</h3>
+            <p>Explore amazing landscapes</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= DESTINATIONS ================= -->
+
+<section id="destinations" class="section">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="eyebrow-dark">
+                EXPLORE UGANDA
+            </p>
+
+            <h2>
+                Popular Destinations
+            </h2>
+
+            <p>
+                Places that deserve a place on your travel list.
+            </p>
+        </div>
+
+        <div class="slider-controls">
+
+            <button onclick="moveSlider('destinationSlider', -1)">
+                ←
+            </button>
+
+            <button onclick="moveSlider('destinationSlider', 1)">
+                →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="slider-container">
+
+        <div class="slider" id="destinationSlider">
+
+
+            <!-- MURCHISON -->
+
+            <article class="destination-card">
+
+                <div class="card-image">
+
+                    <img src="images/murchison82.jpg"
+                         alt="Murchison Falls">
+
+                    <span class="image-label">
+                        WILDLIFE
+                    </span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h3>Murchison Falls</h3>
+
+                    <p>
+                        Experience powerful waterfalls,
+                        wildlife and unforgettable safari views.
+                    </p>
+
+                    <a href="#contact">
+                        Explore destination →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SIPI -->
+
+            <article class="destination-card">
+
+                <div class="card-image">
+
+                    <img src="images/sipi-falls.jpg"
+                         alt="Sipi Falls">
+
+                    <span class="image-label">
+                        ADVENTURE
+                    </span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h3>Sipi Falls</h3>
+
+                    <p>
+                        Discover beautiful waterfalls,
+                        mountains and breathtaking scenery.
+                    </p>
+
+                    <a href="#contact">
+                        Explore destination →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- GORILLA -->
+
+            <article class="destination-card">
+
+                <div class="card-image">
+
+                    <img src="images/gorilla-trekking.jpg"
+                         alt="Gorilla trekking">
+
+                    <span class="image-label">
+                        GORILLA TREKKING
+                    </span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h3>Gorilla Trekking</h3>
+
+                    <p>
+                        Venture into Uganda's forests
+                        for an unforgettable gorilla experience.
+                    </p>
+
+                    <a href="#contact">
+                        Explore destination →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SAFARI -->
+
+            <article class="destination-card">
+
+                <div class="card-image">
+
+                    <img src="images/Safaris.jpg"
+                         alt="Uganda safari">
+
+                    <span class="image-label">
+                        SAFARI
+                    </span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h3>Uganda Safari</h3>
+
+                    <p>
+                        Discover incredible wildlife
+                        across Uganda's beautiful parks.
+                    </p>
+
+                    <a href="#contact">
+                        Explore destination →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- FALLS -->
+
+            <article class="destination-card">
+
+                <div class="card-image">
+
+                    <img src="images/falls.jpg"
+                         alt="Uganda waterfalls">
+
+                    <span class="image-label">
+                        NATURE
+                    </span>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h3>Uganda Waterfalls</h3>
+
+                    <p>
+                        Explore some of the country's
+                        most spectacular natural scenery.
+                    </p>
+
+                    <a href="#contact">
+                        Explore destination →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED GORILLA ================= -->
+
+
+<!-- ================= TOUR PACKAGES ================= -->
+
+<section class="packages-section" id="packages">
+
+    <div class="packages-heading">
+
+        <div>
+
+            <p class="eyebrow-dark">
+                KYAKALA TOUR PACKAGES
+            </p>
+
+            <h2>
+                Choose Your Adventure
+            </h2>
+
+            <p>
+                Explore Uganda with experiences designed
+                for unforgettable memories.
+            </p>
+
+        </div>
+
+        <div class="slider-controls">
+
+            <button onclick="moveSlider('packageSlider', -1)">
+                ←
+            </button>
+
+            <button onclick="moveSlider('packageSlider', 1)">
+                →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="slider-container">
+
+        <div class="slider" id="packageSlider">
+
+
+            <!-- PACKAGE 1 -->
+
+            <article class="package-card">
+
+                <div class="package-image">
+
+                    <img src="images/Gorilla-Treking.jpg"
+                         alt="Gorilla trekking in Uganda">
+
+                    <span class="package-badge">
+                        MOST POPULAR
+                    </span>
+
+                </div>
+
+                <div class="package-content">
+
+                    <p class="package-type">
+                        WILDLIFE EXPERIENCE
+                    </p>
+
+                    <h3>
+                        Gorilla Trekking Adventure
+                    </h3>
+
+                    <p>
+                        Experience the incredible mountain
+                        gorillas in their natural forest habitat.
+                    </p>
+
+                    <div class="package-info">
+
+                        <span>📅 Flexible</span>
+                        <span>🦍 Gorilla Trekking</span>
+
+                    </div>
+
+                    <div class="package-bottom">
+
+                        <div>
+                            <small>PRICE</small>
+                            <strong>Request Price</strong>
+                        </div>
+
+                        <a href="#contact"
+                           class="package-button">
+                            Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PACKAGE 2 -->
+
+            <article class="package-card">
+
+                <div class="package-image">
+
+                    <img src="images/murchison82.jpg"
+                         alt="Murchison Falls safari">
+
+                    <span class="package-badge">
+                        SAFARI
+                    </span>
+
+                </div>
+
+                <div class="package-content">
+
+                    <p class="package-type">
+                        WILDLIFE ADVENTURE
+                    </p>
+
+                    <h3>
+                        Murchison Falls Safari
+                    </h3>
+
+                    <p>
+                        Discover amazing wildlife and the
+                        spectacular Murchison Falls landscape.
+                    </p>
+
+                    <div class="package-info">
+
+                        <span>📅 Flexible</span>
+                        <span>🦁 Wildlife Safari</span>
+
+                    </div>
+
+                    <div class="package-bottom">
+
+                        <div>
+                            <small>PRICE</small>
+                            <strong>Request Price</strong>
+                        </div>
+
+                        <a href="#contact"
+                           class="package-button">
+                            Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PACKAGE 3 -->
+
+            <article class="package-card">
+
+                <div class="package-image">
+
+                    <img src="images/sipi-falls.jpg"
+                         alt="Sipi Falls adventure">
+
+                    <span class="package-badge">
+                        ADVENTURE
+                    </span>
+
+                </div>
+
+                <div class="package-content">
+
+                    <p class="package-type">
+                        NATURE & ADVENTURE
+                    </p>
+
+                    <h3>
+                        Sipi Falls Escape
+                    </h3>
+
+                    <p>
+                        Enjoy spectacular waterfalls,
+                        mountain scenery and outdoor adventure.
+                    </p>
+
+                    <div class="package-info">
+
+                        <span>📅 Flexible</span>
+                        <span>🏔️ Adventure</span>
+
+                    </div>
+
+                    <div class="package-bottom">
+
+                        <div>
+                            <small>PRICE</small>
+                            <strong>Request Price</strong>
+                        </div>
+
+                        <a href="#contact"
+                           class="package-button">
+                            Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PACKAGE 4 -->
+
+            <article class="package-card">
+
+                <div class="package-image">
+
+                    <img src="images/Cultural-Tourism.jpg"
+                         alt="Uganda cultural tourism">
+
+                    <span class="package-badge">
+                        CULTURE
+                    </span>
+
+                </div>
+
+                <div class="package-content">
+
+                    <p class="package-type">
+                        CULTURAL EXPERIENCE
+                    </p>
+
+                    <h3>
+                        Uganda Cultural Experience
+                    </h3>
+
+                    <p>
+                        Meet communities, discover traditions
+                        and experience the heart of Uganda.
+                    </p>
+
+                    <div class="package-info">
+
+                        <span>📅 Flexible</span>
+                        <span>🥁 Culture</span>
+
+                    </div>
+
+                    <div class="package-bottom">
+
+                        <div>
+                            <small>PRICE</small>
+                            <strong>Request Price</strong>
+                        </div>
+
+                        <a href="#contact"
+                           class="package-button">
+                            Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PACKAGE 5 -->
+
+            <article class="package-card">
+
+                <div class="package-image">
+
+                    <img src="images/Wildlife-Safari.jpg"
+                         alt="Uganda wildlife safari">
+
+                    <span class="package-badge">
+                        WILDLIFE
+                    </span>
+
+                </div>
+
+                <div class="package-content">
+
+                    <p class="package-type">
+                        WILDLIFE SAFARI
+                    </p>
+
+                    <h3>
+                        Uganda Wildlife Safari
+                    </h3>
+
+                    <p>
+                        Explore Uganda's national parks and
+                        encounter incredible African wildlife.
+                    </p>
+
+                    <div class="package-info">
+
+                        <span>📅 Flexible</span>
+                        <span>🦁 Safari</span>
+
+                    </div>
+
+                    <div class="package-bottom">
+
+                        <div>
+                            <small>PRICE</small>
+                            <strong>Request Price</strong>
+                        </div>
+
+                        <a href="#contact"
+                           class="package-button">
+                            Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="featured">
+
+    <div class="featured-image">
+
+        <img src="images/Gorilla-Treking.jpg"
+             alt="Gorilla trekking experience">
+
+    </div>
+
+    <div class="featured-content">
+
+        <p class="eyebrow-dark">
+            FEATURED EXPERIENCE
+        </p>
+
+        <h2>
+            An Encounter
+            You Will Never Forget
+        </h2>
+
+        <p>
+            Walk through Uganda's beautiful forests
+            and experience the incredible world of
+            mountain gorillas.
+        </p>
+
+        <a href="#contact" class="primary-button">
+            Plan This Experience
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TOUR EXPERIENCES ================= -->
+
+<section id="tours" class="section light-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="eyebrow-dark">
+                TRAVEL YOUR WAY
+            </p>
+
+            <h2>
+                Experiences For Every Traveler
+            </h2>
+
+            <p>
+                Choose the kind of adventure you want.
+            </p>
+
+        </div>
+
+        <div class="slider-controls">
+
+            <button onclick="moveSlider('tourSlider', -1)">
+                ←
+            </button>
+
+            <button onclick="moveSlider('tourSlider', 1)">
+                →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="slider-container">
+
+        <div class="slider" id="tourSlider">
+
+
+            <article class="experience-card">
+
+                <img src="images/Wildlife-Safari.jpg"
+                     alt="Wildlife safari">
+
+                <div>
+
+                    <p>01</p>
+
+                    <h3>Wildlife Safaris</h3>
+
+                    <span>
+                        Explore Uganda's wild side
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <img src="images/Cultural-Tourism.jpg"
+                     alt="Cultural tourism">
+
+                <div>
+
+                    <p>02</p>
+
+                    <h3>Cultural Tourism</h3>
+
+                    <span>
+                        Discover people and traditions
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <img src="images/karamajong-dancing.jpg"
+                     alt="Karamajong cultural dance">
+
+                <div>
+
+                    <p>03</p>
+
+                    <h3>Karamajong Experience</h3>
+
+                    <span>
+                        Meet Uganda's unique cultures
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <img src="images/Ndere-culture.jpg"
+                     alt="Ndere cultural experience">
+
+                <div>
+
+                    <p>04</p>
+
+                    <h3>Ndere Culture</h3>
+
+                    <span>
+                        Music, dance and heritage
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <img src="images/the-bagishu-cultural.jpg"
+                     alt="Bagishu cultural experience">
+
+                <div>
+
+                    <p>05</p>
+
+                    <h3>Bagishu Culture</h3>
+
+                    <span>
+                        Discover Eastern Uganda
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <img src="images/Uganda-Culture.jpg"
+                     alt="Ugandan culture">
+
+                <div>
+
+                    <p>06</p>
+
+                    <h3>Ugandan Culture</h3>
+
+                    <span>
+                        Experience our heritage
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CULTURE BANNER ================= -->
+
+<section id="culture" class="culture-banner">
+
+    <div class="culture-overlay"></div>
+
+    <div class="culture-content">
+
+        <p class="eyebrow">
+            THE SOUL OF UGANDA
+        </p>
+
+        <h2>
+            Meet the People.
+            <strong>Experience the Culture.</strong>
+        </h2>
+
+        <p>
+            Discover traditional dances, music, food,
+            communities and stories that make Uganda unique.
+        </p>
+
+        <a href="#contact" class="primary-button">
+            Discover Cultural Tours
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about-section">
+
+    <div class="about-text">
+
+        <p class="eyebrow-dark">
+            ABOUT KYAKALA
+        </p>
+
+        <h2>
+            Your Journey.
+            <br>
+            Our Passion.
+        </h2>
+
+        <p>
+            Kyakala Tours & Travel is dedicated to
+            creating memorable experiences for people
+            who want to discover Uganda.
+        </p>
+
+        <p>
+            Whether you want wildlife, adventure,
+            culture or a peaceful escape, we help
+            turn your travel plans into an unforgettable journey.
+        </p>
+
+    </div>
+
+
+    <div class="why-us">
+
+        <h3>
+            Why Choose Kyakala?
+        </h3>
+
+        <div class="reason">
+            <strong>01</strong>
+            <span>Personalized travel experiences</span>
+        </div>
+
+        <div class="reason">
+            <strong>02</strong>
+            <span>Local knowledge and guidance</span>
+        </div>
+
+        <div class="reason">
+            <strong>03</strong>
+            <span>Flexible trip planning</span>
+        </div>
+
+        <div class="reason">
+            <strong>04</strong>
+            <span>Memorable Ugandan adventures</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BOOKING ================= -->
+
+<section id="contact" class="booking-section">
+
+    <div class="booking-heading">
+
+        <p class="eyebrow">
+            START YOUR JOURNEY
+        </p>
+
+        <h2>
+            Tell Us Where You Want To Go
+        </h2>
+
+        <p>
+            Send us your travel details and
+            let's plan your Ugandan adventure.
+        </p>
+
+    </div>
+
+
+    <form class="booking-form">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required
+        >
+
+        <input
+            type="tel"
+            name="phone"
+            placeholder="Phone / WhatsApp Number"
+            required
+        >
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+        >
+
+        <select name="destination" required>
+
+            <option value="">
+                Select Destination
+            </option>
+
+            <option>Murchison Falls</option>
+            <option>Sipi Falls</option>
+            <option>Gorilla Trekking</option>
+            <option>Wildlife Safari</option>
+            <option>Cultural Tour</option>
+            <option>Other</option>
+
+        </select>
+
+        <input
+            type="date"
+            name="date"
+        >
+
+        <input
+            type="number"
+            name="travelers"
+            min="1"
+            placeholder="Number of Travelers"
+        >
+
+        <textarea
+            name="message"
+            placeholder="Tell us about your trip..."
+        ></textarea>
+
+        <button type="submit">
+            Send Booking Request
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= WHATSAPP ================= -->
+
+<a href="#" class="whatsapp-button" id="whatsappButton">
+    <span>💬</span>
+    WhatsApp Us
+</a>
+
+
+<!-- ================= BACK TO TOP ================= -->
+
+<button class="top-button" id="topButton">
+    ↑
+</button>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-brand">
+        <strong>KYAKALA</strong>
+        <span>TOURS & TRAVEL</span>
+    </div>
+
+    <p>
+        Discover Uganda. Experience Africa. Create memories.
+    </p>
+
+    <div class="footer-navigation">
+
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#tours">Tours</a>
+        <a href="#culture">Culture</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © <span id="year"></span>
+        Kyakala Tours & Travel.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
